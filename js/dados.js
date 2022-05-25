@@ -33,5 +33,6 @@
   window.onload = rollDice;
 
   window.addEventListener("click", rollDice);
+  window.addEventListener("onClick", rollDice);
 })();
 
