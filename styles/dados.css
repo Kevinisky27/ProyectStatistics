@@ -65,6 +65,9 @@ body {
 
 /* 12 */
 .custom-btn {
+  position: absolute;
+  left: 650px;
+  top: 500px;
   margin-top: 50px;
   display: flex;
   width: -50%;
