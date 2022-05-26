@@ -1,4 +1,4 @@
-(function () {
+(function girar () {
   var rollTimeout;
 
   function setVal(num, val) {
