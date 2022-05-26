@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   display: grid;
-  min-height: 150vh;
+  min-height: 180vh;
   grid-template-rows: auto 1fr auto;
 }
 
@@ -154,7 +154,7 @@ body {
 /*Tarjetas de integrantes */
 .tarjetas {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   width: 190px;
   height: 210px;
