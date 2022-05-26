@@ -39,7 +39,7 @@ botonPapel.onclick = () => {
   manoComputadora.src =
     "https://workshop-intro-js--ezequiel-geroni.repl.co/assets/papel_computadora.png";
   manoUsuaria.src =
-    "https://workshop-intro-js--ezequiel-geroni.repl.co/assets/piedra_ad";
+    "https://workshop-intro-js--ezequiel-geroni.repl.co/assets/papel_ada.png";
   tablero.classList.add("jugando");
   setTimeout(() => {
     tablero.classList.remove("jugando");
@@ -90,13 +90,13 @@ const decidirPuntaje = () => {
     if (eleccionUsuaria == "piedra") {
       resultadoTexto.textContent = "Empate! 😐";
     } else if (eleccionUsuaria == "papel") {
-      resultadoTexto.textContent = "Ganaste :)";
+      resultadoTexto.textContent = "Ganaste";
       puntosUsuaria++;
       puntajesUsuaria.textContent = puntosUsuaria;
     } else {
       puntosComputadora++;
       puntajesComputadora.textContent = puntosComputadora;
-      resultadoTexto.textContent = "Perdiste 💩";
+      resultadoTexto.textContent = "Perdiste";
     }
   } else if (eleccionComputadora == "papel") {
     if (eleccionUsuaria == "papel") {
