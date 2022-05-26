@@ -5,34 +5,28 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Montserrat";
   color: #424242;
 }
-
 section {
   height: 100vh;
-  background-color: #fafafa;
+  background-color: #fafafabc;
 }
-
 .puntajes {
   height: 20vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .puntajes h2 {
   font-size: 30px;
 }
-
 .puntajes p {
   text-align: center;
   padding: 10px;
   font-size: 25px;
 }
-
 .tablero button {
   width: 100px;
   height: 100px;
@@ -47,20 +41,16 @@ section {
   transition: all 0.3s;
   background-color: #fafafa;
 }
-
 .tablero button:hover {
   background-color: #b71b59;
   border-color: #b71b59;
 }
-
 .tablero button:focus {
   outline: 0;
 }
-
 .tablero button img {
   height: 50px;
 }
-
 .tablero {
   position: absolute;
   top: 50%;
@@ -68,50 +58,42 @@ section {
   transform: translate(-50%, -50%);
   transition: opacity 0.5s ease 0.5s;
 }
-
 .resultado {
   text-align: center;
   font-size: 50px;
   margin-bottom: 1rem;
 }
-
 .manos img {
   width: 250px;
 }
-
 .manos,
 .opciones {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .jugando .manos img {
   animation: shake 2s ease;
 }
-
 @media only screen and (max-width: 768px) {
   .manos img {
     width: 150px;
   }
-
   .puntajes h2 {
     font-size: 18px;
   }
-
   .resultado {
     font-size: 28px;
   }
-
   .tablero button {
     width: 80px;
     height: 80px;
   }
-
   .tablero button img {
     height: 40px;
   }
 }
+
 
 @keyframes shake {
   0% {
@@ -142,4 +124,3 @@ section {
     transform: translateY(0px);
   }
 }
-

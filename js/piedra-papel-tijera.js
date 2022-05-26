@@ -90,13 +90,13 @@ const decidirPuntaje = () => {
     if (eleccionUsuaria == "piedra") {
       resultadoTexto.textContent = "Empate! 😐";
     } else if (eleccionUsuaria == "papel") {
-      resultadoTexto.textContent = "Ganaste :)";
+      resultadoTexto.textContent = "Ganaste";
       puntosUsuaria++;
       puntajesUsuaria.textContent = puntosUsuaria;
     } else {
       puntosComputadora++;
       puntajesComputadora.textContent = puntosComputadora;
-      resultadoTexto.textContent = "Perdiste 💩";
+      resultadoTexto.textContent = "Perdiste";
     }
   } else if (eleccionComputadora == "papel") {
     if (eleccionUsuaria == "papel") {
