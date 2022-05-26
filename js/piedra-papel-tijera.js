@@ -39,7 +39,7 @@ botonPapel.onclick = () => {
   manoComputadora.src =
     "https://workshop-intro-js--ezequiel-geroni.repl.co/assets/papel_computadora.png";
   manoUsuaria.src =
-    "https://workshop-intro-js--ezequiel-geroni.repl.co/assets/piedra_ad";
+    "https://workshop-intro-js--ezequiel-geroni.repl.co/assets/papel_ada.png";
   tablero.classList.add("jugando");
   setTimeout(() => {
     tablero.classList.remove("jugando");
